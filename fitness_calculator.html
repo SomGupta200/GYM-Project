@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASUV Fitness</title>
+    <link rel="icon" href="./logo.webp">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  /* background-color: #f4f4f4; */
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+  background: url(./fitness\ calculator.jpg);
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  color: #333;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #007BFF;
+}
+    .logo {
+    color: lightsteelblue;
+    margin: 0px 0px 500px;
+}
+    /* body {
+    padding: 0px;
+    margin: 0px; */
+    /* background: url(./fitness\ calculator.jpg); */
+/* } */
+.left img {
+    width: 70px;
+    filter: invert(100%);
+}
+
+.mid {
+    display: inline;
+    width: 33%;
+    margin: 5px 100px 0px ;
+    /* border: 2px solid palevioletred; */
+}
+.left div {
+    color: lightsteelblue;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a,
+.navbar li a :active {
+    color: tomato;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(128, 128, 128);
+}
+</style>
+<body>
+    <div class="container">
+        <h1>Fitness Calculator</h1>
+        <form id="bmiForm">
+          <div>
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" placeholder="Enter your weight" required>
+          </div>
+          <div>
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" placeholder="Enter your height" required>
+          </div>
+          <button type="button" onclick="calculateBMI()">Calculate BMI</button>
+        </form>
+        <p id="result"></p>
+      </div>
+    
+        <div class="logo">
+            TASUV Fitness
+        </div>
+    
+ <nav>
+    <div class="mid">
+      <ul class="navbar">
+        <li>
+            <a href="home.html">Home</a>
+        </li>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+        <li>
+            <a href="fitness_calculator.html">Fitness Calculator</a>
+        </li>
+        <li>
+            <a href="contact_us.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+<script src="index.js"></script>
+</body>
+</html>
+    

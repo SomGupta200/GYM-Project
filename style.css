@@ -1,0 +1,116 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: url(./bg3.jpg);
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 25px;
+    top: 18px;
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 5px auto;
+    /* border: 2px solid palevioletred; */
+}
+
+.right {
+    position: absolute;
+    right: 30px;
+    top: 18px;
+    display: inline-block;
+    /* border: 2px solid bisque; */
+}
+
+.left img {
+    width: 70px;
+    filter: invert(100%);
+}
+
+.left div {
+    color: lightsteelblue;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a,
+.navbar li a :active {
+    color: tomato;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(128, 128, 128);
+}
+
+.btn {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 2px 8px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(255, 196, 228);
+}
+
+.container {
+    color: lemonchiffon;
+/* border: 2px solid sandybrown; */
+margin: 70px 30px;
+padding: 11px;
+width: 400px;
+border-radius: 20px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 5px;
+    border: 1.5px solid seagreen;
+    margin: 11px auto;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container h2{
+    text-align: center;
+}
+.container button{
+    display: block;
+width: 62%;
+margin: auto;
+font-size: 20px;
+height: 37px;
+margin: 20px auto;
+}
+.form-group select{
+    text-align: center;
+    display: block;
+    width: 260px;
+    padding: 5px;
+    border: 1.5px solid seagreen;
+    margin: 11px auto;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form-group option{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
